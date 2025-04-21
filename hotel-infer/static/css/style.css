@@ -1,0 +1,75 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+}
+
+#previewImage {
+    border: 3px solid #dee2e6;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.progress {
+    height: 25px;
+    margin-bottom: 1rem;
+}
+
+.progress-bar {
+    transition: width 0.5s ease;
+}
+
+.badge {
+    font-size: 1rem;
+    padding: 0.5em 0.75em;
+}
+
+.sentiment-badge {
+    font-size: 1.2rem;
+    padding: 0.5em 1em;
+}
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+body.dark-mode {
+    background-color: #1c1e21;
+    color: #fff;
+}
+
+.main-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .main-container {
+    background-color: #2e2f31;
+}
+
+#previewImage {
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    max-height: 250px;
+}
+
+.animated.fade-in {
+    animation: fadeInUp 0.6s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
