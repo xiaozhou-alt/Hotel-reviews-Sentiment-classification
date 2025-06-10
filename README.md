@@ -10,4 +10,4 @@ hotel-infer为网页使用代码
 
 更多代码细节可见我的CSDN博客：
 
-【文本分类：基于BERT模型处理新闻分类】https://blog.csdn.net/soejjdiwjssundo/article/details/146542047?sharetype=blog&shareId=146542047&sharerefer=APP&sharesource=soejjdiwjssundo&sharefrom=link
+【使用 Bert + ResNet101 混合模型处理多模态酒店评论】https://blog.csdn.net/soejjdiwjssundo/article/details/147053925?sharetype=blog&shareId=147053925&sharerefer=APP&sharesource=soejjdiwjssundo&sharefrom=link
